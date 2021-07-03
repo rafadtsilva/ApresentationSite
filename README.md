@@ -1,7 +1,10 @@
-<<<<<<< HEAD
 <h1 id="title">:ok_hand:ApresentationSite</h1>
 
 Um bonito e sofisticado site de apresentação para empresas. Desenvolvido de uma forma a torna fácil a mudança para facilitar a troca da paleta de cores e informações básicas.
+
+<h2>Apresentação</h2>
+
+https://user-images.githubusercontent.com/52296697/124358126-41a90b00-dbf5-11eb-860d-4f3591947736.mp4
 
 <a style="text-align=center;" blank href="https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs">
 	<img src="https://img.shields.io/static/v1?label=License&message=MIT&color=7159c1&style=flat&logo="/>
@@ -26,27 +29,22 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 <h2 id="autor">Autor</h2>
 
 - [@maykbrito](https://www.github.com/maykbrito) (no NLW da rocketseat)
-- [@rafadtsilva](https://www.github.com/rafadtsilva) (recriado e modificado por mim)
+- [@rafadtsilva](https://www.github.com/rafadtsilva) (recriei ele com algumas modificações e pretendo fazer algumas melhorias)
 
 ## Features
 
 - [x] Alteração facilitada das cores
 - [ ] Implementar uma forma do usuário alterar facílmente as cores e informações da empresa.
-- [ ] implementar um usuário Master que possa realizar as alterações direto na interface.
-=======
+- [ ] # implementar um usuário Master que possa realizar as alterações direto na interface.
 <h1 align="center">Apresentation-site</h1>
 
 <h4>Um site que pode ter suas informações e cores rapidamente adaptados para vários tipos de empresa e segmentos.</h4>
 
-
 ## Tecnologias do projeto
-
-
 
 ## Status do Projeto
 
-	🚧  Criando Layout 🚀 Em construção...  🚧
-
+    🚧  Criando Layout 🚀 Em construção...  🚧
 
 ## Installation
 
@@ -67,11 +65,13 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contato
@@ -79,4 +79,5 @@ Please make sure to update tests as appropriate.
 ![Badge](https://img.shields.io/badge/Linedin-%230A66C2?style=for-the-badge&logo=linkedin)
 ![Badge](https://img.shields.io/badge/Twitter-%231DA1F2?style=for-the-badge&logo=linkedin)
 ![Badge](https://img.shields.io/badge/Outlook-%231DA1F2?style=for-the-badge&logo=linkedin)
->>>>>>> e821469eec063fc72464eb55c77bee25e0345cc5
+
+> > > > > > > e821469eec063fc72464eb55c77bee25e0345cc5
