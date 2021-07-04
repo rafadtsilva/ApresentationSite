@@ -39,14 +39,18 @@ img {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  /* overflow-y: hidden; */
 }
 
 /* GLOBAL */
 body {
   font: 400 1.6rem 'DM Sans', sans-serif;
+  /* font-weight: 400;
+  font-family: 'DM Sans', sans-serif; */
   color: var(--text-color);
   background-color: var(--body-color);
   -webkit-font-smoothing: antialiased;
+  /* font-size: 62.5%; */
 }
 
 h1 {
@@ -140,7 +144,7 @@ h1 {
 /* ========== MAIN ======= */
 main {
   /* margin-top: calc(var(--header-height) + 3.2rem); */
-  margin-top: var(--header-height);
+  /* margin-top: var(--header-height); */
 }
 
 .logo {
@@ -365,4 +369,56 @@ nav.show div.icon-close {
 .card .title {
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
+}
+
+/* ======== TESTIMONIALS ======= */
+#testimonials {
+  background: white;
+}
+
+#testimonials blockquote {
+  padding: 3.5rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.25;
+}
+
+#testimonials blockquote p {
+  position: relative;
+  text-indent: 3rem;
+  margin-bottom: 2.4rem;
+  color: var(--title-color);
+}
+
+#testimonials blockquote p span {
+  font: 700 4.5rem serif;
+
+  position: absolute;
+  top: -1rem;
+  left: -3rem;
+  color: var(--base-color);
+}
+
+#testimonials cite {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+
+#testimonials cite img {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+  clip-path: circle();
+  margin-right: 0.8rem;
+}
+
+/* ========= SWIPER ========= */
+
+.swiper-slide {
+  height: auto;
+  padding: 6.4rem 1.6rem;
+}
+
+.swiper-pagination-buller-active {
+  background: var(--base-color);
 }
