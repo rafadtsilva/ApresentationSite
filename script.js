@@ -65,7 +65,6 @@ function backToTop() {
   } else {
     backToTopButton.classList.remove('show')
   }
-  console.log(backToTopButton)
 }
 
 window.addEventListener('scroll', function () {
