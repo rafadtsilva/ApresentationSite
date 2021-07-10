@@ -18,10 +18,11 @@ for (const link of links) {
 }
 
 // COLOCAR UMA SOMBRA NO HEADER QUANDO DE SCROLL
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight
 
-window.addEventListener('scroll', function () {
+function changeHeaderWhenScroll() {
+  const header = document.querySelector('#header')
+  const navHeight = header.offsetHeight
+
   if (window.scrollY >= navHeight) {
     // scroll maior que a altura do header
     header.classList.add('scroll')
@@ -29,7 +30,7 @@ window.addEventListener('scroll', function () {
     // menor que a altura do header
     header.classList.remove('scroll')
   }
-})
+}
 
 // TESTIMONIALS SWIPER
 const swiper = new Swiper('.swiper-container', {
@@ -50,7 +51,24 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-  `#home .image, #home .text,   #about .image, #about .text, #services header, #services .card, #testimonials header, #testimonials .testimonials, #contact .text, #contact .links
+  `#home .image, #home .text,   #about .image, #about .text, #services header, #services .card, #testimonials header, #testimonials .testimonials, #contact .text, #contact .links, footer .brand, footer .social
 `,
   { interval: 100 }
 )
+
+// BUTTON BACK TO TOP
+function backToTop() {
+  const backToTopButton = document.querySelector('.back-to-top')
+
+  if (window.scrollY >= 560) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+  console.log(backToTopButton)
+}
+
+window.addEventListener('scroll', function () {
+  backToTop()
+  changeHeaderWhenScroll()
+})
