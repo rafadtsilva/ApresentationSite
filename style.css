@@ -553,8 +553,31 @@ footer .social a:hover {
 
 /* +1200ox */
 @media (min-width: 1200px) {
+  img {
+    max-height: 500px;
+    width: auto;
+  }
+
+  .container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .section {
     padding: 16rem 0;
+  }
+
+  .section header,
+  #testimonials header {
+    max-width: 52rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    height: 5rem;
   }
 
   nav .menu {
@@ -575,6 +598,82 @@ footer .social a:hover {
 
   nav .menu ul main {
     margin-top: var(--header-height);
+  }
+
+  nav .icon-menu {
+    display: none;
+  }
+
+  main {
+    /* margin-top: var(--header-height); */
+  }
+
+  /* home */
+  #home .container {
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  #home .image {
+    order: 1;
+  }
+
+  #home .image img {
+    max-width: 500px;
+  }
+
+  #home .text {
+    order: 0;
+    max-width: 39rem;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  /* about */
+  #about .container {
+    margin: 0 auto;
+    grid-auto-flow: column;
+  }
+
+  /* ========= SERVICES ========= */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr; /*se eu quiser algum maior é só colocar mais frações*/
+  }
+
+  .card {
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+  }
+
+  /* ========== TESTIMONIALS ======= */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ======== CONTACT ======== */
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  #contact .text {
+    max-width: 40rem;
+  }
+
+  footer.section {
+    padding: 6rem 0;
+  }
+
+  footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo {
+    font-size: 3.6rem;
   }
 }
 
