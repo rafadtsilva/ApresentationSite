@@ -9,11 +9,6 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  /* font-size: 2.1rem; */
-}
-
 img {
   width: 100%;
   height: auto;
@@ -41,6 +36,16 @@ img {
 
   --title-font: 'Poppins', sans-serif;
   --body-font: 'DM Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  /* font-size: 2.1rem; */
+  color: var(--base-color);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 html {
@@ -434,8 +439,6 @@ nav.show div.icon-close {
 }
 
 #testimonials cite {
-  display: flex;
-  align-items: center;
   font-style: normal;
 }
 
@@ -445,6 +448,25 @@ nav.show div.icon-close {
   object-fit: cover;
   clip-path: circle();
   margin-right: 0.8rem;
+}
+
+#testimonials .plus {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: blue; */
+}
+
+#testimonials .button-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  /* padding: 10px; */
+  /* clip-path: circle(); */
+  background-color: red;
 }
 
 /* ========= SWIPER ========= */
